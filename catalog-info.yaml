@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "1-aws"
+  description: "1-aws"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/1-aws
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/1-aws
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "1-aws"
